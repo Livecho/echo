@@ -35,8 +35,8 @@ return array (
   'baidu_map_api' => '2b79c282b0f365ca9782cceb499e6022',
   'site_email' => '604497732@qq.com',
   'about' => '',
-  'keyword' => '微启业软件',
-  'content' => '微启业软件',
-  'copyright' => '微启业软件',
+  'keyword' => '微软件',
+  'content' => '微软件',
+  'copyright' => '微软件',
 );
 ?>
