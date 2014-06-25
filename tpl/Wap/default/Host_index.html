@@ -1,0 +1,60 @@
+﻿<html>
+<head>
+<title>{weiqiye:$set['title']}|在线订购</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<link href="{weiqiye::RES}/css/style/css/hotels.css" rel="stylesheet" type="text/css">
+</head>
+<body id="" >
+<div class="qiandaobanner"> 
+  <if condition="$set['ppicurl'] neq false">
+   <img src="{weiqiye:$set['ppicurl']}"  />  
+  <else />
+    <img src="{weiqiye::RES}/css/style/images/default.jpg"  />  
+ </if>
+ </div>
+<div class="cardexplain"> 
+  <!--普通用户登录时显示-->
+<!--商家房价及类型-->
+<ul class="round">
+<li class="title"><span class="none">{weiqiye:$set['title']}</span></li>
+ <volist name="list" id="vo">            
+<li class="dandanb"> <!--订房-->
+<a href="index.php?g=Wap&m=Host&a=lists&token={weiqiye:$vo.token}&id={weiqiye:$vo.id}&wecha_id={weiqiye:$Think.get.wecha_id}&hid={weiqiye:$set['id']}"><span>
+<table class="jiagebiao" width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><div>{weiqiye:$vo.type}</div>
+<div><img src="{weiqiye:$vo.picurl}" class="showimg">
+<p>{weiqiye:$vo.typeinfo}</p>
+<p>原价：<a class="yuanjia">￥{weiqiye:$vo.price}</a></p>
+<p>优惠价：<a class="youhuijia">￥{weiqiye:$vo.yhprice}</a></p></td>
+</tr>
+</table>
+</span></a>
+</li>
+</volist>  
+</ul>
+<!--后台可控制是否显示-->
+<ul class="round">
+<li class="title"><span class="none">订单说明</span></li>
+<li>
+<div class="text">
+{weiqiye:$set['info2']}
+</div>
+</li>
+</ul>
+<!--后台可控制是否显示-->
+<ul class="round">
+<li class="addr"><a href="?g=Wap&m=Company&a=map&token={weiqiye:$Think.get.token}&wecha_id={weiqiye:$Think.get.wecha_id}"><span>{weiqiye:$set['address']}</span></a></li>
+<li class="tel"><a href="tel:{weiqiye:$set['tel2']}"><span>{weiqiye:$set['tel2']} 电话预订</span></a></li>
+<if condition="$set['tel'] neq false">
+<li class="tel"><a href="tel:{weiqiye:$set['tel']}"><span>{weiqiye:$set['tel']} 电话预订</span></a></li>
+</if>
+<li class="detail"><a href="index.php?g=Wap&m=Host&a=companyDetail&token={weiqiye:$Think.get.token}&wecha_id={weiqiye:$Think.get.wecha_id}&hid={weiqiye:$Think.get.hid}"><span>查看商家详情</span></a></li>
+</ul>
+</div>
+</body>
+</html>

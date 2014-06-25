@@ -1,0 +1,424 @@
+[ 2014-06-25T16:51:27+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002288s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\www\hezuo\weiqiye\_Core\Lib\Core\Action.class.php 第 206 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.010619s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002719s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./tpl/Home/weiqiye/Public_qq.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\wamp\www\hezuo\weiqiye\_Core\Lib\Template\ThinkTemplate.class.php 第 624 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' E:\wamp\www\hezuo\weiqiyedata\logs\Cache\Home\aff3733181f1531985ee3dd665b62527.php 第 78 行.
+NOTIC: [8] Undefined index:  uid E:\wamp\www\hezuo\weiqiyedata\logs\Cache\Home\aff3733181f1531985ee3dd665b62527.php 第 78 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.013471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062035s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.075635s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.077754s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.080161s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.081704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008115s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.083938s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002254s ]
+
+[ 2014-06-25T16:52:54+08:00 ] 127.0.0.1 /index.php?m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002341s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\www\hezuo\weiqiye\_Core\Lib\Core\Action.class.php 第 206 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.010606s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001809s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034551s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.047214s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.049030s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.051144s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.052620s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007382s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.054766s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002239s ]
+
+[ 2014-06-25T16:56:10+08:00 ] 127.0.0.1 /index.php?m=Users&a=checklogin
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002398s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\www\hezuo\weiqiye\_Core\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wqy_users` [ RunTime:0.004137s ]
+SQL: SELECT * FROM `wqy_users` WHERE ( `username` = '123456' ) LIMIT 1   [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `wqy_user_group` [ RunTime:0.003557s ]
+SQL: SELECT * FROM `wqy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.021579s ]
+SQL: UPDATE `wqy_users` SET `lasttime`=1403686570,`lastloginmonth`=6,`lastip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.001395s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.073754s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003024s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.076917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023133s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.100172s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.101944s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.103721s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.105191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006960s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.107295s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003144s ]
+
+[ 2014-06-25T16:56:16+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\www\hezuo\weiqiye\_Core\Lib\Core\Action.class.php 第 206 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008248s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001467s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021418s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031368s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.032158s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.033061s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.034102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003756s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.035291s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003156s ]
+
+[ 2014-06-25T16:56:58+08:00 ] 127.0.0.1 /index.php?m=Users&a=checklogin
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\www\hezuo\weiqiye\_Core\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wqy_users` [ RunTime:0.004226s ]
+SQL: SELECT * FROM `wqy_users` WHERE ( `username` = '123456' ) LIMIT 1   [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `wqy_user_group` [ RunTime:0.003665s ]
+SQL: SELECT * FROM `wqy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000566s ]
+SQL: UPDATE `wqy_users` SET `lasttime`=1403686618,`lastloginmonth`=6,`lastip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.000550s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.047382s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002206s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.049738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019814s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.069671s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.070434s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.071247s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.072285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003640s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.073466s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003291s ]
+
+[ 2014-06-25T16:56:59+08:00 ] 127.0.0.1 /index.php?g=User&m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\www\hezuo\weiqiye\_Core\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wqy_user_group` [ RunTime:0.004612s ]
+SQL: SELECT * FROM `wqy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `wqy_users` [ RunTime:0.004495s ]
+SQL: SELECT * FROM `wqy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `wqy_wxuser` [ RunTime:0.005274s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wqy_wxuser` WHERE ( `token` = null ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `wqy_wxuser_message` [ RunTime:0.004333s ]
+NOTIC: [8] Undefined index:  wxid E:\wamp\www\hezuo\weiqiye\Lib\Action\UserAction.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = null ) AND ( `MsgType` = 'text' ) LIMIT 1   [ RunTime:0.000374s ]
+NOTIC: [8] Undefined index:  wxid E:\wamp\www\hezuo\weiqiye\Lib\Action\UserAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = null ) AND ( `MsgType` = 'image' ) LIMIT 1   [ RunTime:0.000293s ]
+NOTIC: [8] Undefined index:  wxid E:\wamp\www\hezuo\weiqiye\Lib\Action\UserAction.class.php 第 27 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = null ) AND ( `MsgType` = 'voice' ) LIMIT 1   [ RunTime:0.000278s ]
+NOTIC: [8] Undefined index:  wxid E:\wamp\www\hezuo\weiqiye\Lib\Action\UserAction.class.php 第 28 行.
+SQL: SELECT COUNT(distinct CreateTime) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = null ) AND ( `MsgType` = 'unsubscribe' ) LIMIT 1   [ RunTime:0.000294s ]
+NOTIC: [8] Undefined index:  wxid E:\wamp\www\hezuo\weiqiye\Lib\Action\UserAction.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = null ) AND ( `MsgType` = 'subscribe' ) LIMIT 1   [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `wqy_user_group` [ RunTime:0.004055s ]
+SQL: SELECT * FROM `wqy_user_group`  [ RunTime:0.000484s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_wxuser` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000457s ]
+SQL: SELECT * FROM `wqy_wxuser` WHERE ( `uid` = 1 ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.000624s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.081972s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002171s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  weixin E:\wamp\www\hezuo\weiqiyedata\logs\Cache\User\56f7804e54d354c9c14b7fc522e75478.php 第 69 行.
+NOTIC: [8] Undefined index:  id E:\wamp\www\hezuo\weiqiyedata\logs\Cache\User\56f7804e54d354c9c14b7fc522e75478.php 第 74 行.
+NOTIC: [8] Undefined index:  id E:\wamp\www\hezuo\weiqiyedata\logs\Cache\User\56f7804e54d354c9c14b7fc522e75478.php 第 75 行.
+NOTIC: [8] Use of undefined constant headerpic - assumed 'headerpic' E:\wamp\www\hezuo\weiqiyedata\logs\Cache\User\56f7804e54d354c9c14b7fc522e75478.php 第 121 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given E:\wamp\www\hezuo\weiqiyedata\logs\Cache\User\56f7804e54d354c9c14b7fc522e75478.php 第 123 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.084259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036821s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.121208s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.122032s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.122892s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.123949s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003781s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.125152s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003131s ]
+
+[ 2014-06-25T17:00:05+08:00 ] 127.0.0.1 /index.php?g=User&m=Function&a=index&id=1&token=26bdd567f504e73
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003140s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\www\hezuo\weiqiye\_Core\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wqy_user_group` [ RunTime:0.003976s ]
+SQL: SELECT * FROM `wqy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `wqy_users` [ RunTime:0.004022s ]
+SQL: SELECT * FROM `wqy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `wqy_wxuser` [ RunTime:0.004543s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wqy_wxuser` WHERE ( `token` = null ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `wqy_wxuser_message` [ RunTime:0.004039s ]
+NOTIC: [8] Undefined index:  wxid E:\wamp\www\hezuo\weiqiye\Lib\Action\UserAction.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = null ) AND ( `MsgType` = 'text' ) LIMIT 1   [ RunTime:0.000506s ]
+NOTIC: [8] Undefined index:  wxid E:\wamp\www\hezuo\weiqiye\Lib\Action\UserAction.class.php 第 26 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = null ) AND ( `MsgType` = 'image' ) LIMIT 1   [ RunTime:0.000460s ]
+NOTIC: [8] Undefined index:  wxid E:\wamp\www\hezuo\weiqiye\Lib\Action\UserAction.class.php 第 27 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = null ) AND ( `MsgType` = 'voice' ) LIMIT 1   [ RunTime:0.000460s ]
+NOTIC: [8] Undefined index:  wxid E:\wamp\www\hezuo\weiqiye\Lib\Action\UserAction.class.php 第 28 行.
+SQL: SELECT COUNT(distinct CreateTime) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = null ) AND ( `MsgType` = 'unsubscribe' ) LIMIT 1   [ RunTime:0.000464s ]
+NOTIC: [8] Undefined index:  wxid E:\wamp\www\hezuo\weiqiye\Lib\Action\UserAction.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = null ) AND ( `MsgType` = 'subscribe' ) LIMIT 1   [ RunTime:0.000457s ]
+SQL: SELECT * FROM `wqy_wxuser` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `wqy_token_open` [ RunTime:0.003434s ]
+SQL: SELECT `id`,`queryname` FROM `wqy_token_open` WHERE ( `token` = '26bdd567f504e73' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000616s ]
+SQL: SELECT `id`,`name` FROM `wqy_user_group` WHERE status=1  [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `wqy_function` [ RunTime:0.004268s ]
+SQL: SELECT * FROM `wqy_function` WHERE ( `status` = 1 ) AND ( `gid` = 1 )  [ RunTime:0.021217s ]
+SQL: SELECT * FROM `wqy_function` WHERE ( `status` = 1 ) AND ( `gid` = 2 )  [ RunTime:0.000769s ]
+SQL: SELECT * FROM `wqy_function` WHERE ( `status` = 1 ) AND ( `gid` = 3 )  [ RunTime:0.000605s ]
+SQL: SELECT * FROM `wqy_function` WHERE ( `status` = 1 ) AND ( `gid` = 4 )  [ RunTime:0.000844s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wqy_wxuser` WHERE ( `token` = '26bdd567f504e73' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000533s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.105722s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003946s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.109805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105894s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.215841s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.219094s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.222296s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.224674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011807s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.227845s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002241s ]
+
+[ 2014-06-25T17:00:39+08:00 ] 127.0.0.1 /index.php?g=User&m=Product&a=index&token=26bdd567f504e73
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003310s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\www\hezuo\weiqiye\_Core\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wqy_user_group` [ RunTime:0.003891s ]
+SQL: SELECT * FROM `wqy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `wqy_users` [ RunTime:0.003886s ]
+SQL: SELECT * FROM `wqy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `wqy_wxuser` [ RunTime:0.004464s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wqy_wxuser` WHERE ( `token` = '26bdd567f504e73' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `wqy_wxuser_message` [ RunTime:0.003926s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = 'gh_17f12e00d409' ) AND ( `MsgType` = 'text' ) LIMIT 1   [ RunTime:0.000397s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = 'gh_17f12e00d409' ) AND ( `MsgType` = 'image' ) LIMIT 1   [ RunTime:0.000444s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = 'gh_17f12e00d409' ) AND ( `MsgType` = 'voice' ) LIMIT 1   [ RunTime:0.000453s ]
+SQL: SELECT COUNT(distinct CreateTime) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = 'gh_17f12e00d409' ) AND ( `MsgType` = 'unsubscribe' ) LIMIT 1   [ RunTime:0.000461s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = 'gh_17f12e00d409' ) AND ( `MsgType` = 'subscribe' ) LIMIT 1   [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `wqy_token_open` [ RunTime:0.003422s ]
+SQL: SELECT `queryname` FROM `wqy_token_open` WHERE ( `token` = '26bdd567f504e73' ) LIMIT 1   [ RunTime:0.000431s ]
+NOTIC: [8] Undefined index:  catid E:\wamp\www\hezuo\weiqiye\Lib\Action\User\ProductAction.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `wqy_product` [ RunTime:0.026724s ]
+SQL: SHOW COLUMNS FROM `wqy_product_cat` [ RunTime:0.003704s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_product` WHERE ( `token` = '26bdd567f504e73' ) AND ( `dining` = 0 ) AND ( `groupon` <> 1 ) LIMIT 1   [ RunTime:0.000528s ]
+SQL: SELECT * FROM `wqy_product` WHERE ( `token` = '26bdd567f504e73' ) AND ( `dining` = 0 ) AND ( `groupon` <> 1 ) ORDER BY id desc LIMIT 0,12   [ RunTime:0.000505s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.109355s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004076s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  id E:\wamp\www\hezuo\weiqiyedata\logs\Cache\User\b7417a956dcaddc2780c9684a494cee5.php 第 82 行.
+NOTIC: [8] Undefined index:  id E:\wamp\www\hezuo\weiqiyedata\logs\Cache\User\b7417a956dcaddc2780c9684a494cee5.php 第 83 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.113557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086087s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.199785s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.202915s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.205989s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.208346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011474s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.211447s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001767s ]
+
+[ 2014-06-25T17:00:53+08:00 ] 127.0.0.1 /index.php?g=User&m=Selfform&a=index&token=26bdd567f504e73
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003116s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\www\hezuo\weiqiye\_Core\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wqy_user_group` [ RunTime:0.003701s ]
+SQL: SELECT * FROM `wqy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `wqy_users` [ RunTime:0.003911s ]
+SQL: SELECT * FROM `wqy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `wqy_wxuser` [ RunTime:0.004424s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wqy_wxuser` WHERE ( `token` = '26bdd567f504e73' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `wqy_wxuser_message` [ RunTime:0.004058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = 'gh_17f12e00d409' ) AND ( `MsgType` = 'text' ) LIMIT 1   [ RunTime:0.000506s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = 'gh_17f12e00d409' ) AND ( `MsgType` = 'image' ) LIMIT 1   [ RunTime:0.000459s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = 'gh_17f12e00d409' ) AND ( `MsgType` = 'voice' ) LIMIT 1   [ RunTime:0.000456s ]
+SQL: SELECT COUNT(distinct CreateTime) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = 'gh_17f12e00d409' ) AND ( `MsgType` = 'unsubscribe' ) LIMIT 1   [ RunTime:0.000462s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = 'gh_17f12e00d409' ) AND ( `MsgType` = 'subscribe' ) LIMIT 1   [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `wqy_token_open` [ RunTime:0.003349s ]
+SQL: SELECT `queryname` FROM `wqy_token_open` WHERE ( `token` = '26bdd567f504e73' ) LIMIT 1   [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `wqy_selfform` [ RunTime:0.003660s ]
+SQL: SHOW COLUMNS FROM `wqy_selfform_input` [ RunTime:0.003889s ]
+SQL: SHOW COLUMNS FROM `wqy_selfform_value` [ RunTime:0.003594s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_selfform` WHERE ( `token` = '26bdd567f504e73' ) LIMIT 1   [ RunTime:0.000421s ]
+SQL: SELECT * FROM `wqy_selfform` WHERE ( `token` = '26bdd567f504e73' ) ORDER BY time DESC  [ RunTime:0.000520s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.090694s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004007s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  id E:\wamp\www\hezuo\weiqiyedata\logs\Cache\User\c46285d001b6edcfc6a91c0911edfac0.php 第 82 行.
+NOTIC: [8] Undefined index:  id E:\wamp\www\hezuo\weiqiyedata\logs\Cache\User\c46285d001b6edcfc6a91c0911edfac0.php 第 83 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.094819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107558s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.202518s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.205468s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.208908s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.211470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011860s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.214566s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002235s ]
+
+[ 2014-06-25T17:00:58+08:00 ] 127.0.0.1 /index.php?g=User&m=Host&a=index&token=26bdd567f504e73
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003132s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\www\hezuo\weiqiye\_Core\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wqy_user_group` [ RunTime:0.004269s ]
+SQL: SELECT * FROM `wqy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `wqy_users` [ RunTime:0.003942s ]
+SQL: SELECT * FROM `wqy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `wqy_wxuser` [ RunTime:0.005381s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wqy_wxuser` WHERE ( `token` = '26bdd567f504e73' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `wqy_wxuser_message` [ RunTime:0.004054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = 'gh_17f12e00d409' ) AND ( `MsgType` = 'text' ) LIMIT 1   [ RunTime:0.000501s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = 'gh_17f12e00d409' ) AND ( `MsgType` = 'image' ) LIMIT 1   [ RunTime:0.000356s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = 'gh_17f12e00d409' ) AND ( `MsgType` = 'voice' ) LIMIT 1   [ RunTime:0.000377s ]
+SQL: SELECT COUNT(distinct CreateTime) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = 'gh_17f12e00d409' ) AND ( `MsgType` = 'unsubscribe' ) LIMIT 1   [ RunTime:0.000388s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = 'gh_17f12e00d409' ) AND ( `MsgType` = 'subscribe' ) LIMIT 1   [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `wqy_token_open` [ RunTime:0.003409s ]
+SQL: SELECT `queryname` FROM `wqy_token_open` WHERE ( `token` = '26bdd567f504e73' ) LIMIT 1   [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `wqy_host` [ RunTime:0.005021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_host` WHERE ( `token` = '26bdd567f504e73' ) LIMIT 1   [ RunTime:0.000340s ]
+SQL: SELECT * FROM `wqy_host` WHERE ( `token` = '26bdd567f504e73' ) LIMIT 0,12   [ RunTime:0.000471s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.082948s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003978s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  id E:\wamp\www\hezuo\weiqiyedata\logs\Cache\User\97e12fbf6ee5e1b53de0baad1a2e89ad.php 第 82 行.
+NOTIC: [8] Undefined index:  id E:\wamp\www\hezuo\weiqiyedata\logs\Cache\User\97e12fbf6ee5e1b53de0baad1a2e89ad.php 第 83 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.087058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086176s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.173371s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.176458s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.179556s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.182015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011568s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.185126s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001293s ]
+
+[ 2014-06-25T17:01:08+08:00 ] 127.0.0.1 /index.php?g=User&m=Product&a=index&token=26bdd567f504e73
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003403s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\www\hezuo\weiqiye\_Core\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wqy_user_group` [ RunTime:0.003743s ]
+SQL: SELECT * FROM `wqy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `wqy_users` [ RunTime:0.004362s ]
+SQL: SELECT * FROM `wqy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `wqy_wxuser` [ RunTime:0.005041s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wqy_wxuser` WHERE ( `token` = '26bdd567f504e73' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `wqy_wxuser_message` [ RunTime:0.004367s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = 'gh_17f12e00d409' ) AND ( `MsgType` = 'text' ) LIMIT 1   [ RunTime:0.000398s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = 'gh_17f12e00d409' ) AND ( `MsgType` = 'image' ) LIMIT 1   [ RunTime:0.000326s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = 'gh_17f12e00d409' ) AND ( `MsgType` = 'voice' ) LIMIT 1   [ RunTime:0.000342s ]
+SQL: SELECT COUNT(distinct CreateTime) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = 'gh_17f12e00d409' ) AND ( `MsgType` = 'unsubscribe' ) LIMIT 1   [ RunTime:0.000459s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = 'gh_17f12e00d409' ) AND ( `MsgType` = 'subscribe' ) LIMIT 1   [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `wqy_token_open` [ RunTime:0.003504s ]
+SQL: SELECT `queryname` FROM `wqy_token_open` WHERE ( `token` = '26bdd567f504e73' ) LIMIT 1   [ RunTime:0.000391s ]
+NOTIC: [8] Undefined index:  catid E:\wamp\www\hezuo\weiqiye\Lib\Action\User\ProductAction.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `wqy_product` [ RunTime:0.004357s ]
+SQL: SHOW COLUMNS FROM `wqy_product_cat` [ RunTime:0.003324s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_product` WHERE ( `token` = '26bdd567f504e73' ) AND ( `dining` = 0 ) AND ( `groupon` <> 1 ) LIMIT 1   [ RunTime:0.000415s ]
+SQL: SELECT * FROM `wqy_product` WHERE ( `token` = '26bdd567f504e73' ) AND ( `dining` = 0 ) AND ( `groupon` <> 1 ) ORDER BY id desc LIMIT 0,12   [ RunTime:0.000504s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.090211s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003957s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  id E:\wamp\www\hezuo\weiqiyedata\logs\Cache\User\b7417a956dcaddc2780c9684a494cee5.php 第 82 行.
+NOTIC: [8] Undefined index:  id E:\wamp\www\hezuo\weiqiyedata\logs\Cache\User\b7417a956dcaddc2780c9684a494cee5.php 第 83 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.094255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088436s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.182832s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.185890s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.189075s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.191448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011482s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.194496s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001292s ]
+
+[ 2014-06-25T17:01:12+08:00 ] 127.0.0.1 /index.php?g=User&m=Estate&a=index&token=26bdd567f504e73
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003103s ]
+NOTIC: [2] Cannot use a scalar value as an array E:\wamp\www\hezuo\weiqiye\_Core\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wqy_user_group` [ RunTime:0.003673s ]
+SQL: SELECT * FROM `wqy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `wqy_users` [ RunTime:0.004480s ]
+SQL: SELECT * FROM `wqy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `wqy_wxuser` [ RunTime:0.004930s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wqy_wxuser` WHERE ( `token` = '26bdd567f504e73' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `wqy_wxuser_message` [ RunTime:0.004401s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = 'gh_17f12e00d409' ) AND ( `MsgType` = 'text' ) LIMIT 1   [ RunTime:0.000473s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = 'gh_17f12e00d409' ) AND ( `MsgType` = 'image' ) LIMIT 1   [ RunTime:0.000465s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = 'gh_17f12e00d409' ) AND ( `MsgType` = 'voice' ) LIMIT 1   [ RunTime:0.000460s ]
+SQL: SELECT COUNT(distinct CreateTime) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = 'gh_17f12e00d409' ) AND ( `MsgType` = 'unsubscribe' ) LIMIT 1   [ RunTime:0.000465s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wqy_wxuser_message` WHERE ( `ToUserName` = 'gh_17f12e00d409' ) AND ( `MsgType` = 'subscribe' ) LIMIT 1   [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `wqy_function` [ RunTime:0.003791s ]
+SQL: SELECT * FROM `wqy_function` WHERE ( `funname` = 'estate' ) LIMIT 1   [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `wqy_estate` [ RunTime:0.005213s ]
+SQL: SELECT * FROM `wqy_estate` WHERE ( `token` = '26bdd567f504e73' ) AND ( `thetype` = 'Estate' ) LIMIT 1   [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `wqy_panorama` [ RunTime:0.004897s ]
+SQL: SELECT id as pid,`name`,`keyword` FROM `wqy_panorama` WHERE ( `token` = '26bdd567f504e73' )  [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `wqy_classify` [ RunTime:0.004208s ]
+SQL: SELECT id as cid,`name` FROM `wqy_classify` WHERE ( `token` = '26bdd567f504e73' )  [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `wqy_reservation` [ RunTime:0.004958s ]
+SQL: SELECT id as rid,`title` FROM `wqy_reservation` WHERE ( `token` = '26bdd567f504e73' ) AND ( `thetype` = 'Estate' )  [ RunTime:0.000499s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.100638s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003571s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  id E:\wamp\www\hezuo\weiqiyedata\logs\Cache\User\436274522f73e9e037472cde1cf959db.php 第 82 行.
+NOTIC: [8] Undefined index:  id E:\wamp\www\hezuo\weiqiyedata\logs\Cache\User\436274522f73e9e037472cde1cf959db.php 第 83 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.104328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106847s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.211328s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.214633s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.217850s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.220228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011846s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.223384s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001301s ]
+
