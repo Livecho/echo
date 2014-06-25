@@ -121,8 +121,17 @@
                 <TR></TR>                
                  <volist name="info" id="vo"> 
 					<TR>
-					  <TD style="text-align:center;"><p><a href="{weiqiye::U('Function/index',array('id'=>$vo['id'],'token'=>$vo['token']))}" title="点击进入功能管理"><img src="<php> if(substr($vo[headerpic],0,5)!='http:'){echo 'img/image/40.jpg';}else {echo $vo[headerpic];}; </php>" width="40" height="40"></a></p><p>{weiqiye:$vo.wxname}</p></TD>
-					  <TD align="center"><php>if($_SESSION['gid']>1){echo $_SESSION['gid']-1;}else{echo 0;}</php></TD>
+					  <TD style="text-align:center;">
+              <p>
+                <a href="{weiqiye::U('Function/index',array('id'=>$vo['id'],'token'=>$vo['token']))}" title="点击进入功能管理">
+                  <img src="<php> if(substr($vo[headerpic],0,5)!='http:'){echo 'img/image/40.jpg';}else {echo $vo[headerpic];}; </php>" width="40" height="40">
+                </a>
+              </p>
+              <p>{weiqiye:$vo.wxname}</p>
+            </TD>
+					  <TD align="center">
+              <php>if($_SESSION['gid']>1){echo $_SESSION['gid']-1;}else{echo 0;}</php>
+            </TD>
 					  <TD><p>创建时间:{weiqiye:$vo.createtime|date="Y-m-d",###}</p><p>到期时间:{weiqiye:$viptime|date="Y-m-d",###}</p><p><a   href="{weiqiye::U('Alipay/index')}" id="smemberss" class="green"><em>升降级vip续费</em></a></p></Td>
 					  <TD><p>图文：<php>echo $_SESSION['diynum'].'/'.$group[$_SESSION['gid']]['did'];</php></p></TD>
 					   <TD><p>总请求数:<php>echo $_SESSION['connectnum']</php></p><p> 本月请求数:<php>echo $group[$_SESSION['gid']]['cid'];</php></p></TD>
