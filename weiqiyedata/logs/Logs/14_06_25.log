@@ -422,3 +422,94 @@ INFO: [ view_end ] --START--
 INFO: Run ShowPageTrace Behavior [ RunTime:-0.223384s ]
 INFO: [ view_end ] --END-- [ RunTime:0.001301s ]
 
+[ 2014-06-25T21:17:44+08:00 ] 60.186.184.134 /echo/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+NOTIC: [2] Cannot use a scalar value as an array /var/www/echo/weiqiye/_Core/Lib/Core/Action.class.php 第 206 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001182s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000228s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./tpl/Home/weiqiye/Public_qq.html): failed to open stream: No such file or directory /var/www/echo/weiqiye/_Core/Lib/Template/ThinkTemplate.class.php 第 624 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/echo/weiqiyedata/logs/Cache/Home/aff3733181f1531985ee3dd665b62527.php 第 78 行.
+NOTIC: [8] Undefined index: uid /var/www/echo/weiqiyedata/logs/Cache/Home/aff3733181f1531985ee3dd665b62527.php 第 78 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.001453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024978s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.026474s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.026752s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.027074s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.027210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001047s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.027578s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2014-06-25T21:18:04+08:00 ] 60.186.184.134 /echo/index.php?m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+NOTIC: [2] Cannot use a scalar value as an array /var/www/echo/weiqiye/_Core/Lib/Core/Action.class.php 第 206 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001357s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000237s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.001640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010859s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012541s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.012776s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.013060s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000965s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013564s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2014-06-25T21:27:53+08:00 ] 60.186.184.134 /echo/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+NOTIC: [2] Cannot use a scalar value as an array /var/www/echo/weiqiye/_Core/Lib/Core/Action.class.php 第 206 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001219s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000210s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./tpl/Home/weiqiye/Public_qq.html): failed to open stream: No such file or directory /var/www/echo/weiqiye/_Core/Lib/Template/ThinkTemplate.class.php 第 624 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/echo/weiqiyedata/logs/Cache/Home/aff3733181f1531985ee3dd665b62527.php 第 78 行.
+NOTIC: [8] Undefined index: uid /var/www/echo/weiqiyedata/logs/Cache/Home/aff3733181f1531985ee3dd665b62527.php 第 78 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.001472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016741s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.018270s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.018552s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.018897s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.019037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001067s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.019411s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2014-06-25T21:27:57+08:00 ] 60.186.184.134 /echo/index.php?m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+NOTIC: [2] Cannot use a scalar value as an array /var/www/echo/weiqiye/_Core/Lib/Core/Action.class.php 第 206 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001220s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000219s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.001476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005809s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.007349s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.007587s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.007851s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.007991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000926s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.008325s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2014-06-25T21:28:04+08:00 ] ERR: (ThinkException) Access denied for user 'root'@'localhost' (using password: YES)
