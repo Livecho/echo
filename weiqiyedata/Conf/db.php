@@ -13,9 +13,10 @@ return array (
   'DB_TYPE' => 'mysql',
   'DB_HOST' => 'localhost',
   'DB_PORT' => '3306',
-  'DB_NAME' => 'a0508172323',
+  'DB_NAME' => 'echoweixin',
   'DB_USER' => 'root',
-  'DB_PWD' => 'root',
+  'DB_PWD' => 'Aa5052090',
+  // 'DB_PWD' => 'root',
   'DB_PREFIX' => 'wqy_',
 );
 ?>
