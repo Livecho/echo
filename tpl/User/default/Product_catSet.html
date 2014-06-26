@@ -1,14 +1,14 @@
 <include file="Public:head"/> 
 <link rel="stylesheet" type="text/css" href="{weiqiye::RES}/css/cymain.css" />
-<script src="/tpl/static/artDialog/jquery.artDialog.js?skin=default"></script>
-<script src="/tpl/static/artDialog/plugins/iframeTools.js"></script>
+<script src="./tpl/static/artDialog/jquery.artDialog.js?skin=default"></script>
+<script src="./tpl/static/artDialog/plugins/iframeTools.js"></script>
 <link rel="stylesheet" href="{weiqiye::STATICS}/kindeditor/themes/default/default.css" />
 <link rel="stylesheet" href="{weiqiye::STATICS}/kindeditor/plugins/code/prettify.css" />
 <script src="{weiqiye::STATICS}/kindeditor/kindeditor.js" type="text/javascript"></script>
 <script src="{weiqiye::STATICS}/kindeditor/lang/zh_CN.js" type="text/javascript"></script>
 <script src="{weiqiye::STATICS}/kindeditor/plugins/code/prettify.js" type="text/javascript"></script>
 <script src="./tpl/User/default/common/js/cart/jscolor.js" type="text/javascript"></script>
-<script type="text/javascript" src="/tpl/User/default/common/js/jquery.js"></script>
+<script type="text/javascript" src="./tpl/User/default/common/js/jquery.js"></script>
 <script>
 var editor;
 KindEditor.ready(function(K) {
@@ -16,7 +16,7 @@ editor = K.create('#intro', {
 resizeType : 1,
 allowPreviewEmoticons : false,
 allowImageUpload : true,
-uploadJson : '/index.php?g=User&m=Upyun&a=kindedtiropic',
+uploadJson : '/echo/index.php?g=User&m=Upyun&a=kindedtiropic',
 items : [
 'source','undo','clearhtml','hr',
 'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright', 'insertorderedlist',
@@ -40,7 +40,7 @@ items : [
        </tr> 
        <tr> 
         <th><span class="red">*</span>Logo地址：</th> 
-        <td><input type="text" name="logourl" id="pic" value="{weiqiye:$set.logourl}"  class="px require"  style="width:400px;" readonly="readonly"/><script src="/tpl/static/upyun.js"></script><a href="###" onclick="upyunPicUpload('pic',700,420,'{weiqiye:$token}')" class="a_upload">上传</a> <a href="###" onclick="viewImg('pic')">预览</a></td> 
+        <td><input type="text" name="logourl" id="pic" value="{weiqiye:$set.logourl}"  class="px require"  style="width:400px;" readonly="readonly"/><script src="./tpl/static/upyun.js"></script><a href="###" onclick="upyunPicUpload('pic',700,420,'{weiqiye:$token}')" class="a_upload">上传</a> <a href="###" onclick="viewImg('pic')">预览</a></td> 
        </tr>
         <tr> 
         <th><span class="red">*</span>简介：</th> 
