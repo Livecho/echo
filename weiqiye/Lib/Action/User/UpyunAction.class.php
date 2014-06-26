@@ -39,6 +39,8 @@ class UpyunAction extends UserAction{
 				$options['x-gmkerl-type'] = 'fix_width';
 				$options['fix_width '] = $_GET['width'];
 			}
+			echo C('site_url');
+			exit();
 			$options['return-url'] = C('site_url').'/index.php?g=User&m=Upyun&a=uploadReturn'; /// 页面跳转型回调地址
 			$policy = base64_encode(json_encode($options));
 			$sign = md5($policy.'&'.$form_api_secret); /// 表单 API 功能的密匙（请访问又拍云管理后台的空间管理页面获取）
