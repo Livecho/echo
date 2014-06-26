@@ -62,7 +62,7 @@
 		<div class="o_btn clearfix">
 			<php>if($alipayConfig['open']&&!$thisOrder['paid']){</php>
 			<input type="button" class="o_btn_back ts1" onclick="history.go(-1);" value="返回" />
-    		<input type="button" class="o_btn_submit ts1" onclick="location.href='/index.php?g=Wap&m=Alipay&a=pay&price={weiqiye:$totalFee}&orderName={weiqiye:$p.name}&single_orderid={weiqiye:$thisOrder.id}&token={weiqiye:$token}'" value="点击这里付款" />
+    		<input type="button" class="o_btn_submit ts1" onclick="location.href='/echo/index.php?g=Wap&m=Alipay&a=pay&price={weiqiye:$totalFee}&orderName={weiqiye:$p.name}&single_orderid={weiqiye:$thisOrder.id}&token={weiqiye:$token}'" value="点击这里付款" />
 			<php>}</php>
 			</div>
     </form>
