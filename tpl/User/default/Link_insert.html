@@ -35,7 +35,7 @@ var domid=art.dialog.data('domid');
 function returnHomepage(url){
 	var origin = artDialog.open.origin;
 	var dom = origin.document.getElementById(domid);
-	dom.value=url;
+	dom.value="/echo" + url;
 	setTimeout("art.dialog.close()", 100 )
 }
 </script>
