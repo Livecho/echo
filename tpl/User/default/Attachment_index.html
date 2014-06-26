@@ -72,7 +72,7 @@ if ($type!='my'){
 <if condition="$type neq 'music'">
 <ul>
 <volist name="files" id="item">
-<li style="float:left;width:{weiqiye:$height}px;margin:1px;background:#ddd"><a href="###" onclick="returnHomepage('{weiqiye:$siteUrl}/tpl/static/attachment/{weiqiye:$type}/{weiqiye:$folder}/{weiqiye:$item}')"><img style="width:{weiqiye:$height}px;height:{weiqiye:$height}px;" src="/tpl/static/attachment/{weiqiye:$type}/{weiqiye:$folder}/{weiqiye:$item}" /></a></li>
+<li style="float:left;width:{weiqiye:$height}px;margin:1px;background:#ddd"><a href="###" onclick="returnHomepage('{weiqiye:$siteUrl}/tpl/static/attachment/{weiqiye:$type}/{weiqiye:$folder}/{weiqiye:$item}')"><img style="width:{weiqiye:$height}px;height:{weiqiye:$height}px;" src="./tpl/static/attachment/{weiqiye:$type}/{weiqiye:$folder}/{weiqiye:$item}" /></a></li>
 </volist>
 </ul>
 <else/>
