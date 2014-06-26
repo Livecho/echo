@@ -10,8 +10,8 @@
  <script src="{weiqiye::STATICS}/jquery-1.4.2.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak={weiqiye::$apikey}"></script>
  <link rel="stylesheet" type="text/css" href="{weiqiye::RES}/css/cymain.css" />
- <script src="/tpl/static/artDialog/jquery.artDialog.js?skin=default"></script>
-<script src="/tpl/static/artDialog/plugins/iframeTools.js"></script>
+ <script src="./tpl/static/artDialog/jquery.artDialog.js?skin=default"></script>
+<script src="./tpl/static/artDialog/plugins/iframeTools.js"></script>
 </head>
 <body style="background:#fff">
 <php>if(!isset($_GET['error'])){</php>
@@ -28,7 +28,7 @@ if (art.dialog.data('width')) {
 };
 </script>
 <php>}else{</php>
-<div style="text-align:center;line-height:140px;font-size:14px;"> <img src="/tpl/User/default/common/images/export.png" align="absmiddle" /> <php>if($_GET['error']==0){echo '上传成功';}else{echo $_GET['msg'];}</php> </div>
+<div style="text-align:center;line-height:140px;font-size:14px;"> <img src="./tpl/User/default/common/images/export.png" align="absmiddle" /> <php>if($_GET['error']==0){echo '上传成功';}else{echo $_GET['msg'];}</php> </div>
 <script>
 var domid=art.dialog.data('domid');
 // 返回数据到主页面
