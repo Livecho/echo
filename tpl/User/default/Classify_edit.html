@@ -1,6 +1,6 @@
 <include file="Public:head"/>
-<script src="/tpl/static/artDialog/jquery.artDialog.js?skin=default"></script>
-<script src="/tpl/static/artDialog/plugins/iframeTools.js"></script>
+<script src="./tpl/static/artDialog/jquery.artDialog.js?skin=default"></script>
+<script src="./tpl/static/artDialog/plugins/iframeTools.js"></script>
 <link rel="stylesheet" href="{weiqiye::STATICS}/kindeditor/themes/default/default.css" />
 <link rel="stylesheet" href="{weiqiye::STATICS}/kindeditor/plugins/code/prettify.css" />
 <script src="{weiqiye::STATICS}/kindeditor/kindeditor.js" type="text/javascript"></script>
@@ -39,7 +39,7 @@
 </TR>
 <TR>
   <TH valign="top"><label for="pic">分类图片上传：</label></TH>
-   <TD><input type="input" class="px" id="img" value="{weiqiye:$info.img}" name="img" id="img" style="width:500px" >  <script src="/tpl/static/upyun.js?2013"></script><a href="###" onclick="chooseFile('img','icon')" class="a_upload">选择</a> <a href="###" onclick="upyunPicUpload('img',700,420,'{weiqiye:$token}')" class="a_upload">上传</a> <a href="###" onclick="viewImg('img')">预览</a></TD>
+   <TD><input type="input" class="px" id="img" value="{weiqiye:$info.img}" name="img" id="img" style="width:500px" >  <script src="./tpl/static/upyun.js?2013"></script><a href="###" onclick="chooseFile('img','icon')" class="a_upload">选择</a> <a href="###" onclick="upyunPicUpload('img',700,420,'{weiqiye:$token}')" class="a_upload">上传</a> <a href="###" onclick="viewImg('img')">预览</a></TD>
 </TR>
 <TR>
   <TH valign="top"><label for="keyword">网站图标选择 ：</label></TH>
